@@ -2,8 +2,8 @@ let execucoes = [];
 
 function createInstance(){
 
-    let maquinas = Math.round((Math.random() * 4) + 1) * 10;
-    let tarefas = Math.floor(Math.pow(maquinas, Math.floor((Math.random() * 2) + 1.5)));
+    let maquinas = Math.round((Math.random() * 2) + 1) * 10;
+    let tarefas = Math.floor(Math.pow(maquinas, Math.floor((Math.random() * 1) + 1.5)));
 
     if(maquinas === 0 || tarefas === 0) return createInstance();
 
